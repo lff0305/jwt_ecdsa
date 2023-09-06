@@ -4,7 +4,7 @@
 
 When I need to validating a JWT token, I found that most of the 3rd party JWT libraries depend on https://www.bouncycastle.org/java.html.
 
-However I found that in recent JDKs (9+) Oracle has implemented what is needed to validate a jwt token.
+However I found that in recent JDKs (9+) Oracle has implemented what is needed to validate a jwt token for `EC`
 
 # This is what to do (ES384 for example)
 
