@@ -1,6 +1,6 @@
-# A demo for validating `ES384` jwt tokens by jdk (no other libraries)
+# A demo for validating `ES384` jwt tokens by jdk only
 
-**This demo code ONLY validates the signatures are valid; it will NOT check `exp` or other properties in the header so do NOT use it in production!!**
+**This demo code ONLY validates the signatures are valid; it will NOT check `exp` or other properties in the body so do NOT use it in production!!**
 
 When I need to validating a JWT token, I found that most of the 3rd party JWT libraries depend on https://www.bouncycastle.org/java.html.
 
