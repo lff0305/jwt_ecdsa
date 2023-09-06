@@ -53,5 +53,7 @@ Copy this token to code (`TestES384.java`):
         service.validate(jwt);
     }
 ```
+The unit tests should pass, which means the JWT signatures are valid.
 
+**This demo code ONLY validates the signatures are valid; it will NOT check `exp` or other properties in the header so do NOT use it in production!!**
 
