@@ -1,5 +1,4 @@
-# jwt_ecdsa
-A demo for validating ES384 jwt tokens by jdk (none 3rd party libraries).
+# A demo for validating `ES384` jwt tokens by jdk (no other libraries)
 
 **This demo code ONLY validates the signatures are valid; it will NOT check `exp` or other properties in the header so do NOT use it in production!!**
 
