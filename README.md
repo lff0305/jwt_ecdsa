@@ -8,6 +8,8 @@ However I found that in recent JDKs (9+) Oracle has implemented what is needed t
 
 # This is what to do (ES384 for example)
 
+All logic is implemented in [JWTService.java](./src/main/java/org/lff/ecdsa/JWTService.java)
+
 ## Create Private key and Public key from https://mkjwk.org/
 
 Select `EC` and other configs as blow, then click `Generate`
