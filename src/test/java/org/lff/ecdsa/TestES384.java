@@ -21,7 +21,6 @@ public class TestES384 {
 
         JWTService service = JWTService.build().privateKey(privateKey).publicKey(publicKey);
         service.validate(jwt);
-
     }
 
     @Test(expected = RuntimeException.class)
