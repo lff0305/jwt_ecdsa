@@ -32,11 +32,9 @@ String publicKey = "MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAExxTHBRTm3YjP0j3v1VmPttoRVIlz
 
 Copy the `Private Key` and `Public Key` to https://jwt.io, and select `ES384`:
 
-![image](https://github.com/lff0305/jwt_ecdsa/assets/225183/f0e4ce92-3823-4d0f-825d-5dda14cd7ade)
+![image](https://github.com/lff0305/jwt_ecdsa/assets/225183/6d4c04cf-d6e5-464f-a46e-667ac3285374)
 
-jwt.io will automatically generate a valid jwt token:
-
-![image](https://github.com/lff0305/jwt_ecdsa/assets/225183/bfb52ddb-b472-40c0-9cbe-4719bbc485ab)
+jwt.io will automatically generate a valid jwt token (On the left side)
 
 Copy this token to code (`TestES384.java`):
 ```
